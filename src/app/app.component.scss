@@ -1,0 +1,19 @@
+html,body,h1,h2,h3,h4,h5,h6,a,p,span,div {
+  font-family: "Proxima Nova";
+}
+mat-toolbar .title {
+  font-family: "Proxima Nova";
+  font-weight: light;
+}
+mat-card .full {
+  width: 100%;
+  background-color: transparent;
+}
+mat-card .title {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main {
+  background-color: #fff;
+  padding-bottom: calc(100% - 100px);
+}

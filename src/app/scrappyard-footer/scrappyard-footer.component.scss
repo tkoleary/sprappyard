@@ -1,0 +1,19 @@
+.footer-content {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  position-content: flex-start;
+  justify-content: space-evenly;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  font-family: "Proxima nova","Helvetica","Myriad",sans-serif;
+  color: #fff;
+  padding: 1em;
+
+  a {
+  	color: #fff;
+  	text-decoration: none;
+  }
+}
