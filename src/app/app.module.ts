@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatButtonModule,
   MatCheckboxModule,
@@ -20,6 +20,8 @@ import { ScrappyardNavComponent } from './scrappyard-nav/scrappyard-nav.componen
 import { LayoutModule } from '@angular/cdk/layout';
 import { ScrappyardFooterComponent } from './scrappyard-footer/scrappyard-footer.component';
 import { ScrappyardContentComponent } from './scrappyard-content/scrappyard-content.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -42,10 +44,10 @@ import { ScrappyardContentComponent } from './scrappyard-content/scrappyard-cont
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
