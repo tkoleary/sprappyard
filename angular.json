@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "scrappyard": {
-      "root": "",
+      "root": "scrappyard",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
