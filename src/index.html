@@ -1,24 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>Welcome to Scrappyard</title>
-  <meta name="description" content="Scrappyard, Enterprise Prototyping">
   <base href="https://scrappyard-4d43f.firebaseapp.com/">
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta name="description" content="Scrappyard, Enterprise Prototyping">
+  <meta name="theme-color" content="#1976d2">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
 
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#4e8ef7">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <!-- For iPhone 4 with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon.png">
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+  <!-- For nokia devices: -->
+  <link rel="shortcut icon" href="/apple-touch-icon.png">
 
-  <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <!-- Service worker -->
-  <script src="/path/to/sw-toolbox/companion.js" data-service-worker="service-worker.js"></script>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="/sw-toolbox/companion.js" data-service-worker="service-worker.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
@@ -26,38 +31,38 @@
         .catch(err => console.error('Error', err));
     }
   </script>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#1976d2">
 </head>
 <body>
   <app-root></app-root>
-  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
       apiKey: "AIzaSyCB2-DPdGM7UJ43_HEu_Qa5HrvXvNA5IL0",
       authDomain: "scrappyard-4d43f.firebaseapp.com",
-      databaseURL: "https://scrappyard-4d43f.firebaseio.com",
+      //databaseURL: "https://scrappyard-4d43f.firebaseio.com",
       projectId: "scrappyard-4d43f",
-      storageBucket: "scrappyard-4d43f.appspot.com",
-      messagingSenderId: "1078879076895"
+      //storageBucket: "scrappyard-4d43f.appspot.com",
+      //messagingSenderId: "1078879076895"
     };
     firebase.initializeApp(config);
   </script>
-  <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <noscript>
+    <h3 style="color: #673ab7; font-family: Helvetica; margin: 2rem;">
+        Sorry, the app is not available without javascript
+    </h3>
+  </noscript>
 </head>
 <body>
   <app-root></app-root>
-  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
       apiKey: "AIzaSyCB2-DPdGM7UJ43_HEu_Qa5HrvXvNA5IL0",
       authDomain: "scrappyard-4d43f.firebaseapp.com",
-      databaseURL: "https://scrappyard-4d43f.firebaseio.com",
+      //databaseURL: "https://scrappyard-4d43f.firebaseio.com",
       projectId: "scrappyard-4d43f",
-      storageBucket: "scrappyard-4d43f.appspot.com",
-      messagingSenderId: "1078879076895"
+      //storageBucket: "scrappyard-4d43f.appspot.com",
+      //messagingSenderId: "1078879076895"
     };
     firebase.initializeApp(config);
   </script>

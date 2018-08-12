@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "scrappyard": {
-      "root": "scrappyard",
+      "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
@@ -20,7 +20,10 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
+              "src/apple-touch-icon.png",
               "src/assets",
+              "src/assets/sitemap.xml",
+              "src/assets/robots.txt",
               "src/manifest.json",
             ],
             "styles": [
