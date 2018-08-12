@@ -22,13 +22,15 @@ import { ScrappyardFooterComponent } from './scrappyard-footer/scrappyard-footer
 import { ScrappyardContentComponent } from './scrappyard-content/scrappyard-content.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HomeTabComponent } from './home-tab/home-tab.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ScrappyardNavComponent,
     ScrappyardFooterComponent,
-    ScrappyardContentComponent
+    ScrappyardContentComponent,
+    HomeTabComponent
   ],
   imports: [
     BrowserModule,
