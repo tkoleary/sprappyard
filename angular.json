@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "scrappyard": {
+    "scrapyard": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -56,18 +56,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "scrappyard:build"
+            "browserTarget": "scrapyard:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "scrappyard:build:production"
+              "browserTarget": "scrapyard:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "scrappyard:build"
+            "browserTarget": "scrapyard:build"
           }
         },
         "test": {
@@ -84,7 +84,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "scrappyard/src/manifest.json"
+              "scrapyard/src/manifest.json"
             ]
           }
         },
@@ -102,7 +102,7 @@
         }
       }
     },
-    "scrappyard-e2e": {
+    "scrapyard-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -110,11 +110,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "scrappyard:serve"
+            "devServerTarget": "scrapyard:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "scrappyard:serve:production"
+              "devServerTarget": "scrapyard:serve:production"
             }
           }
         },
@@ -130,5 +130,5 @@
       }
     }
   },
-  "defaultProject": "scrappyard"
+  "defaultProject": "scrapyard"
 }

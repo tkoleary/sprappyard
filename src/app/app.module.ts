@@ -16,21 +16,27 @@ import {
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { ScrappyardNavComponent } from './scrappyard-nav/scrappyard-nav.component';
+import { ScrapyardNavComponent } from './scrapyard-nav/scrapyard-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { ScrappyardFooterComponent } from './scrappyard-footer/scrappyard-footer.component';
-import { ScrappyardContentComponent } from './scrappyard-content/scrappyard-content.component';
+import { ScrapyardFooterComponent } from './scrapyard-footer/scrapyard-footer.component';
+import { ScrapyardContentComponent } from './scrapyard-content/scrapyard-content.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HomeTabComponent } from './home-tab/home-tab.component';
+import { HowTabComponent } from './how-tab/how-tab.component';
+import { WhyTabComponent } from './why-tab/why-tab.component';
+import { WorkTabComponent } from './work-tab/work-tab.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScrappyardNavComponent,
-    ScrappyardFooterComponent,
-    ScrappyardContentComponent,
-    HomeTabComponent
+    ScrapyardNavComponent,
+    ScrapyardFooterComponent,
+    ScrapyardContentComponent,
+    HomeTabComponent,
+    HowTabComponent,
+    WhyTabComponent,
+    WorkTabComponent
   ],
   imports: [
     BrowserModule,

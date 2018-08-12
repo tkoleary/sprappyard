@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScrappyardContentComponent } from './scrappyard-content.component';
+import { ScrapyardFooterComponent } from './scrapyard-footer.component';
 
-describe('ScrappyardContentComponent', () => {
-  let component: ScrappyardContentComponent;
-  let fixture: ComponentFixture<ScrappyardContentComponent>;
+describe('ScrapyardFooterComponent', () => {
+  let component: ScrapyardFooterComponent;
+  let fixture: ComponentFixture<ScrapyardFooterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ScrappyardContentComponent ]
+      declarations: [ ScrapyardFooterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ScrappyardContentComponent);
+    fixture = TestBed.createComponent(ScrapyardFooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

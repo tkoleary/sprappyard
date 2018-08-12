@@ -4,11 +4,11 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-scrappyard-nav',
-  templateUrl: './scrappyard-nav.component.html',
-  styleUrls: ['./scrappyard-nav.component.scss']
+  selector: 'app-scrapyard-nav',
+  templateUrl: './scrapyard-nav.component.html',
+  styleUrls: ['./scrapyard-nav.component.scss']
 })
-export class ScrappyardNavComponent {
+export class ScrapyardNavComponent {
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
