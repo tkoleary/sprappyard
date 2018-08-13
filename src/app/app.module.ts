@@ -26,6 +26,8 @@ import { HomeTabComponent } from './home-tab/home-tab.component';
 import { HowTabComponent } from './how-tab/how-tab.component';
 import { WhyTabComponent } from './why-tab/why-tab.component';
 import { WorkTabComponent } from './work-tab/work-tab.component';
+import { GetStartedComponent } from './get-started/get-started.component';
+import { GetStartedSheetComponent } from './get-started/get-started-sheet.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { WorkTabComponent } from './work-tab/work-tab.component';
     HomeTabComponent,
     HowTabComponent,
     WhyTabComponent,
-    WorkTabComponent
+    WorkTabComponent,
+    GetStartedComponent,
+    GetStartedSheetComponent,
   ],
   imports: [
     BrowserModule,

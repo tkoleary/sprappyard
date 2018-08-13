@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GetStartedSheetComponent } from './get-started/get-started-sheet.component';
 
 @Component({
   selector: 'app-root',

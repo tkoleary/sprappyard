@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetStartedComponent } from '../get-started/get-started.component';
 
 @Component({
   selector: 'app-home-tab',
